@@ -1,6 +1,6 @@
 import React from 'react';
 import { RadarChart, Radar, PolarGrid, PolarAngleAxis, ResponsiveContainer, Tooltip } from 'recharts';
-import { BookOpen, Clock, Target, TrendingUp } from 'lucide-react';
+import { BookOpen, Clock, Target } from 'lucide-react';
 
 const ProductivityBar = ({ value, color }) => (
   <div style={{ height: 6, background: '#1e2d45', borderRadius: 3, overflow: 'hidden', width: '100%' }}>

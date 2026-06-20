@@ -2,7 +2,7 @@ import React from 'react';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Cell,
 } from 'recharts';
-import { TrendingUp, Award, Clock, Target, Zap, BookOpen } from 'lucide-react';
+import { TrendingUp, Clock, Zap, BookOpen } from 'lucide-react';
 
 const InsightCard = ({ icon, title, value, sub, color }) => (
   <div style={{ ...styles.insightCard, borderColor: color + '40' }}>
@@ -16,7 +16,7 @@ const InsightCard = ({ icon, title, value, sub, color }) => (
 );
 
 export default function WeeklyReport({ stats }) {
-  const { dailyData, subjectStats, avgProductivity, weekHours, weekPie } = stats;
+  const { dailyData, subjectStats, avgProductivity, weekHours } = stats;
 
   const bestDay = [...dailyData].sort((a, b) => b.total - a.total)[0];
   const topSubject = subjectStats[0];

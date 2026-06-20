@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
-  PieChart, Pie, Cell, LineChart, Line, CartesianGrid, Legend,
+  PieChart, Pie, Cell, LineChart, Line, CartesianGrid,
 } from 'recharts';
 import { Clock, Zap, BookOpen, Flame, TrendingUp, Target } from 'lucide-react';
 import StatCard from './StatCard';

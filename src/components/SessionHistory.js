@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Trash2, Clock, Zap, StickyNote, ChevronDown, ChevronUp } from 'lucide-react';
+import { Trash2, Clock, StickyNote, ChevronDown, ChevronUp } from 'lucide-react';
 import { format, parseISO } from 'date-fns';
 
 const SUBJECT_COLORS = {

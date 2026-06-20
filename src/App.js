@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LayoutDashboard, BookOpen, History, BarChart2, Plus, GraduationCap, BrainCircuit } from 'lucide-react';
+import { LayoutDashboard, BookOpen, History, BarChart2, Plus, BrainCircuit } from 'lucide-react';
 import { useStudyData } from './hooks/useStudyData';
 import Dashboard from './components/Dashboard';
 import SubjectStats from './components/SubjectStats';

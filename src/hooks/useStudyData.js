@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { format, subDays, startOfWeek, parseISO, isWithinInterval, startOfDay, endOfDay } from 'date-fns';
+import { format, subDays, startOfWeek, parseISO } from 'date-fns';
 
 const SUBJECTS = ['Mathematics', 'Science', 'English', 'History', 'Programming', 'Other'];
 
